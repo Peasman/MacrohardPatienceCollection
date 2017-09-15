@@ -1,0 +1,11 @@
+
+.menu-button {
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: rgba(150.0,150.0,150.0,1);
+}

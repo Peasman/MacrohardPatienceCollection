@@ -1,0 +1,42 @@
+.settings-view .label{
+	
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 20.0;
+	-fx-text-fill: rgba(255.0,255.0,255.0,0.8);
+}
+
+.slider .track {
+    -fx-background-color:null;  /* Hide the track */
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 2.5; /* 2.5 */
+}
+.slider .thumb {
+    -fx-padding: 10;
+}
+.progress-bar .bar {
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        -fx-focus-color; /* this line is the background color of the bar */
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+}
+.button {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-text-fill: white;
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8) ;
+	-fx-border-radius: 3.0px;
+	-fx-background-radius:3.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 16.0;
+	-fx-text-fill: rgba(255.0,255.0,255.0, 0.8);
+	
+}
+.button:hover {
+	-fx-background-color:rgba(75.0,75.0,120.0,0.4);
+}
+.button:pressed {
+	-fx-text-fill: BLACK;
+	-fx-background-color: white
+}

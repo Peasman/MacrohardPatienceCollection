@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root fx:id="statsGrid" hgap="20.0" type="GridPane" vgap="20.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="60" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane id="apmAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css" GridPane.columnIndex="1">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" styleClass="title" stylesheets="@stats.css" text="Aggro-Patience Medium" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <VBox spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Längster Zug">
+                     <tooltip>
+                        <Tooltip text="Meisten Karten innerhalb eines Zuges in die Mitte abgelegt" />
+                     </tooltip></Label>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="apm_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="apm_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="apm_cardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="24/52" />
+                  <Text fx:id="apm_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+                  <Text fx:id="apm_longestTurn" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="aphAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css" GridPane.columnIndex="2">
+         <children>
+            <Label alignment="CENTER" styleClass="title" stylesheets="@stats.css" text="Aggro-Patience Hard" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <VBox spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Längster Zug">
+                     <tooltip>
+                        <Tooltip text="Meisten Karten innerhalb eines Zuges in die Mitte abgelegt" />
+                     </tooltip></Label>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="aph_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="aph_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="aph_cardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="24/52" />
+                  <Text fx:id="aph_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+                  <Text fx:id="aph_longestTurn" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="apeAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css">
+         <children>
+            <Label alignment="TOP_CENTER" styleClass="title" stylesheets="@stats.css" text="Aggro-Patience Easy" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <VBox spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Längster Zug">
+                     <tooltip>
+                        <Tooltip text="Meisten Karten innerhalb eines Zuges in die Mitte abgelegt" />
+                     </tooltip></Label>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="ape_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="ape_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="ape_cardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="24/52" />
+                  <Text fx:id="ape_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+                  <Text fx:id="ape_longestTurn" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="aphuAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" styleClass="title" stylesheets="@stats.css" text="Aggro-Patience Human" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <VBox spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Längster Zug">
+                     <tooltip>
+                        <Tooltip text="Meisten Karten innerhalb eines Zuges in die Mitte abgelegt" />
+                     </tooltip></Label>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" layoutX="111.0" layoutY="62.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="aphu_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="aphu_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="aphu_cardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="24.83/52" />
+                  <Text fx:id="aphu_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+                  <Text fx:id="aphu_longestTurn" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="ipAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" styleClass="title" stylesheets="@stats.css" text="Idiot-Patience" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <VBox layoutX="10.0" layoutY="62.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Meiste Karten abgelegt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" layoutX="118.0" layoutY="62.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="ip_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="ip_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="ip_mostCardsPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="43/48" />
+                  <Text fx:id="ip_CardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+                  <Text fx:id="ip_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="fcAnchor" prefHeight="200.0" prefWidth="200.0" styleClass="statistic-anchor" stylesheets="@stats.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" styleClass="title" stylesheets="@stats.css" text="Freecell" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <VBox spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gespielt" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Spiele gewonnen" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Karten übrig Ø" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Schnellster Sieg" />
+                  <Label styleClass="stats-text" stylesheets="@stats.css" text="Wenigste Züge" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="45.0">
+               <children>
+                  <Text fx:id="fc_gamesPlayed" strokeType="OUTSIDE" strokeWidth="0.0" text="120" />
+                  <Text fx:id="fc_gamesWon" strokeType="OUTSIDE" strokeWidth="0.0" text="20 (16.67%)" />
+                  <Text fx:id="fc_cardsLeftAvg" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                  <Text fx:id="fc_fastestWin" strokeType="OUTSIDE" strokeWidth="0.0" text="0:28:23" />
+                  <Text fx:id="fc_lowestTurns" strokeType="OUTSIDE" strokeWidth="0.0" text="83" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <children>
+            <HBox spacing="10" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onBackButtonAction" prefHeight="50.0" prefWidth="100.0" text="Zurück" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+           			 <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onResetButtonAction" prefHeight="50.0" prefWidth="150.0" text="Zurücksetzen" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</fx:root>

@@ -1,0 +1,120 @@
+
+.game-button {
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: white;
+}
+
+.game-button1 {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: white;
+}
+
+.game-combo {
+	-fx-font-size: 15.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: white;
+}
+
+.chose-button {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	-fx-spacing: 10px;
+}
+
+.chose-button1 {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: green;
+}
+.chose-button2 {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: yellow;
+}
+.chose-button3 {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: red;
+}
+
+.chose-button1:hover {
+	-fx-text-fill: lightgreen;
+}
+
+.chose-button2:hover {
+	-fx-text-fill: lightgoldenrodyellow;
+}
+
+.chose-button3:hover {
+	-fx-text-fill: indianred;
+}
+
+.chose-textfield {
+	-fx-pref-height: 25px;
+	-fx-pref-width: 80px; 
+}
+
+.chose-eingabe {
+	-fx-font-size: 30.0;
+	-fx-text-alignment: center;
+	-fx-text-fill: white;
+}
+
+.chose-radio {
+	-fx-font-size: 15.0;
+	-fx-text-alignment: center;
+	-fx-text-fill: white;
+}
+
+.aggro-button {
+	-fx-pref-height: 110px;
+	-fx-pref-width: 250px;
+	-fx-font-size: 30.0;
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8);
+	-fx-border-width: 2px;
+	-fx-border-radius: 5.0px;
+	-fx-background-radius:5.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: white;
+}

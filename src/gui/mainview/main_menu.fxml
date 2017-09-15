@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="StackPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="mainContainer" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" StackPane.alignment="CENTER">
+         <center>
+            <VBox alignment="CENTER" spacing="40.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="title" fitHeight="300.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../rsc/splash_screen.gif" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btnNewGame" alignment="CENTER" mnemonicParsing="false" onAction="#onActionBtnNewGame" text="Spielen" />
+                  <Button fx:id="btnLoadGame" mnemonicParsing="false" onAction="#onActionBtnLoadGame" text="Spiel laden" />
+                  <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="15.0">
+                     <children>
+                        <Button fx:id="btnSettings" mnemonicParsing="false" onAction="#onActionBtnSettings" />
+                        <Button fx:id="btnStatistics" mnemonicParsing="false" onAction="#onActionBtnStatistics" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</fx:root>

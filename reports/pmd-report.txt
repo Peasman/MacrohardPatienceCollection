@@ -1,0 +1,272 @@
+src/ai/FreecellAI.java:48:	The class 'FreecellGameState' has a Cyclomatic Complexity of 4 (Highest = 18).
+src/ai/FreecellAI.java:101:	Avoid really long methods.
+src/ai/FreecellAI.java:101:	The method 'getPossibleMoves' has a Cyclomatic Complexity of 18.
+src/ai/FreecellAI.java:129:	Deeply nested if..then statements are hard to read
+src/ai/FreecellAI.java:153:	Avoid unused method parameters such as 'possibleMoves'.
+src/ai/IdiotPatienceAI.java:27:	Avoid unused private fields such as 'mpcController'.
+src/ai/IdiotPatienceAI.java:51:	The class 'IdiotPatienceGameState' has a Cyclomatic Complexity of 4 (Highest = 14).
+src/ai/IdiotPatienceAI.java:104:	Avoid really long methods.
+src/ai/IdiotPatienceAI.java:104:	The method 'getPossibleMoves' has a Cyclomatic Complexity of 14.
+src/ai/IdiotPatienceAI.java:137:	Deeply nested if..then statements are hard to read
+src/ai/IdiotPatienceAI.java:147:	Avoid using Literals in Conditional Statements
+src/ai/IdiotPatienceAI.java:154:	Avoid really long methods.
+src/ai/IdiotPatienceAI.java:196:	Avoid unused method parameters such as 'possibleMoves'.
+src/ai/IdiotPatienceAI.java:202:	Avoid variables with short names like i
+src/ai/IdiotPatienceAI.java:239:	Avoid variables with short names like fr
+src/ai/IdiotPatienceAI.java:240:	Avoid variables with short names like br
+src/ai/IdiotPatienceAI.java:252:	Avoid variables with short names like fw
+src/ai/IdiotPatienceAI.java:253:	Avoid variables with short names like bw
+src/ai/IdiotPatienceRandomAi.java:48:	The class 'IdiotPatienceGameState' has a Cyclomatic Complexity of 4 (Highest = 10).
+src/ai/IdiotPatienceRandomAi.java:59:	Avoid really long methods.
+src/ai/IdiotPatienceRandomAi.java:59:	The method 'manageProdecures' has a Cyclomatic Complexity of 10.
+src/ai/IdiotPatienceRandomAi.java:68:	Avoid using Literals in Conditional Statements
+src/ai/IdiotPatienceRandomAi.java:107:	Avoid variables with short names like i
+src/ai/IdiotPatienceRandomAi.java:119:	Avoid variables with short names like j
+src/ai/IdiotPatienceRandomAi.java:147:	Avoid really long methods.
+src/ai/IdiotPatienceRandomAi.java:272:	Avoid unused method parameters such as 'possibleMoves'.
+src/ai/Node.java:3:	Avoid short class names like Node
+src/ai/freecell/FreeCellGameStateTest.java:1:	Possible God class (WMC=51, ATFD=43, TCC=0.06666666666666667)
+src/ai/freecell/FreeCellGameStateTest.java:38:	Avoid really long classes.
+src/ai/freecell/FreeCellGameStateTest.java:38:	The class 'FreeCellGameStateTest' has a Cyclomatic Complexity of 5 (Highest = 22).
+src/ai/freecell/FreeCellGameStateTest.java:49:	Variables that are final and static should be all capitals, 'moveFromRules' is not all capitals.
+src/ai/freecell/FreeCellGameStateTest.java:50:	Variables that are final and static should be all capitals, 'moveToRules' is not all capitals.
+src/ai/freecell/FreeCellGameStateTest.java:101:	Avoid really long methods.
+src/ai/freecell/FreeCellGameStateTest.java:232:	Avoid really long methods.
+src/ai/freecell/FreeCellGameStateTest.java:232:	The method 'validMoves' has a Cyclomatic Complexity of 22.
+src/ai/freecell/FreeCellGameStateTest.java:299:	Avoid unused local variables such as 'cardOne'.
+src/ai/freecell/FreeCellGameStateTest.java:300:	Avoid unused local variables such as 'cardTwo'.
+src/ai/freecell/FreeCellGameStateTest.java:564:	Avoid unused private methods such as 'toRows(Battlefield,CardStackType,ArrayList)'.
+src/ai/general/Evaluator.java:5:	Avoid variables with short names like t
+src/ai/general/IVisitor.java:5:	Avoid variables with short names like id
+src/ai/general/IVisitor.java:5:	Avoid variables with short names like n
+src/ai/general/IdiotPatienceAI.java:27:	Avoid unused private fields such as 'mpcController'.
+src/ai/general/IdiotPatienceAI.java:51:	The class 'IdiotPatienceGameState' has a Cyclomatic Complexity of 4 (Highest = 14).
+src/ai/general/IdiotPatienceAI.java:104:	Avoid really long methods.
+src/ai/general/IdiotPatienceAI.java:104:	The method 'getPossibleMoves' has a Cyclomatic Complexity of 14.
+src/ai/general/IdiotPatienceAI.java:137:	Deeply nested if..then statements are hard to read
+src/ai/general/IdiotPatienceAI.java:147:	Avoid using Literals in Conditional Statements
+src/ai/general/IdiotPatienceAI.java:154:	Avoid really long methods.
+src/ai/general/IdiotPatienceAI.java:196:	Avoid unused method parameters such as 'possibleMoves'.
+src/ai/general/IdiotPatienceAI.java:202:	Avoid variables with short names like i
+src/ai/general/IdiotPatienceAI.java:239:	Avoid variables with short names like fr
+src/ai/general/IdiotPatienceAI.java:240:	Avoid variables with short names like br
+src/ai/general/IdiotPatienceAI.java:252:	Avoid variables with short names like fw
+src/ai/general/IdiotPatienceAI.java:253:	Avoid variables with short names like bw
+src/ai/general/IdiotPatienceRandomAi.java:48:	The class 'IdiotPatienceGameState' has a Cyclomatic Complexity of 4 (Highest = 10).
+src/ai/general/IdiotPatienceRandomAi.java:59:	Avoid really long methods.
+src/ai/general/IdiotPatienceRandomAi.java:59:	The method 'manageProdecures' has a Cyclomatic Complexity of 10.
+src/ai/general/IdiotPatienceRandomAi.java:68:	Avoid using Literals in Conditional Statements
+src/ai/general/IdiotPatienceRandomAi.java:107:	Avoid variables with short names like i
+src/ai/general/IdiotPatienceRandomAi.java:119:	Avoid variables with short names like j
+src/ai/general/IdiotPatienceRandomAi.java:147:	Avoid really long methods.
+src/ai/general/IdiotPatienceRandomAi.java:272:	Avoid unused method parameters such as 'possibleMoves'.
+src/ai/general/Result.java:54:	Avoid variables with short names like pw
+src/ai/general/Result.java:62:	Avoid variables with short names like pw
+src/ai/general/Result.java:71:	Avoid variables with short names like de
+src/ai/general/StagedDeepening.java:31:	Avoid really long classes.
+src/ai/general/StagedDeepeningTest.java:1:	Possible God class (WMC=66, ATFD=23, TCC=0.030303030303030304)
+src/ai/general/StagedDeepeningTest.java:27:	Avoid really long classes.
+src/ai/general/StagedDeepeningTest.java:27:	The class 'StagedDeepeningTest' has a Cyclomatic Complexity of 6 (Highest = 18).
+src/ai/general/StagedDeepeningTest.java:29:	Variables that are final and static should be all capitals, 'fjPool' is not all capitals.
+src/ai/general/StagedDeepeningTest.java:58:	Avoid variables with short names like id
+src/ai/general/StagedDeepeningTest.java:58:	Avoid variables with short names like n
+src/ai/general/StagedDeepeningTest.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'MAX_SIZE' is not final.
+src/ai/general/StagedDeepeningTest.java:62:	The field name indicates a constant but its modifiers do not
+src/ai/general/StagedDeepeningTest.java:62:	Variables should start with a lowercase character, 'MAX_SIZE' starts with uppercase character.
+src/ai/general/StagedDeepeningTest.java:114:	Avoid using Literals in Conditional Statements
+src/ai/general/StagedDeepeningTest.java:122:	Avoid really long methods.
+src/ai/general/StagedDeepeningTest.java:122:	The method 'computeSolution' has a Cyclomatic Complexity of 18.
+src/ai/general/StagedDeepeningTest.java:188:	Avoid really long methods.
+src/ai/general/StagedDeepeningTest.java:188:	The method 'fullSearch' has a Cyclomatic Complexity of 12.
+src/ai/general/StagedDeepeningTest.java:213:	Avoid unused local variables such as 'passNumber'.
+src/ai/general/StagedDeepeningTest.java:282:	Avoid using Literals in Conditional Statements
+src/ai/general/StagedDeepeningTest.java:303:	Avoid really long methods.
+src/ai/general/StagedDeepeningTest.java:303:	The method 'search' has a Cyclomatic Complexity of 18.
+src/ai/general/StagedDeepeningTest.java:352:	Avoid variables with short names like s
+src/ai/general/StagedDeepeningTest.java:459:	Avoid unused private methods such as 'showBoard()'.
+src/ai/general/StagedDeepeningTest.java:459:	The method 'showBoard' has a Cyclomatic Complexity of 10.
+src/ai/general/StagedDeepeningTest.java:470:	Avoid variables with short names like j
+src/ai/general/StagedDeepeningTest.java:473:	Avoid using Literals in Conditional Statements
+src/ai/general/StagedDeepeningTest.java:476:	Avoid using Literals in Conditional Statements
+src/ai/general/StagedDeepeningTest.java:500:	Avoid unused private methods such as 'printMove(Move)'.
+src/controller/GameController.java:108:	Avoid long parameter lists.
+src/controller/GameLogicController.java:1:	Possible God class (WMC=61, ATFD=80, TCC=0.03333333333333333)
+src/controller/GameLogicController.java:27:	Avoid really long classes.
+src/controller/StatisticsController.java:1:	Possible God class (WMC=59, ATFD=37, TCC=0.05454545454545454)
+src/functionals/Rule.java:11:	Avoid short class names like Rule
+src/gui/battlefield/AggroLayout.java:33:	The class 'AggroLayout' has a Cyclomatic Complexity of 3 (Highest = 11).
+src/gui/battlefield/AggroLayout.java:363:	Avoid really long methods.
+src/gui/battlefield/AggroLayout.java:363:	The method 'showEndTurnMessageIfNecessary' has a Cyclomatic Complexity of 11.
+src/gui/battlefield/AggroLayout.java:375:	Avoid variables with short names like e
+src/gui/battlefield/AggroLayout.java:392:	Avoid variables with short names like e
+src/gui/battlefield/BattlefieldLayout.java:81:	Avoid really long methods.
+src/gui/battlefield/BattlefieldLayout.java:88:	Avoid variables with short names like to
+src/gui/battlefield/BattlefieldLayout.java:146:	Avoid variables with short names like i
+src/gui/battlefield/BattlefieldLayout.java:201:	Avoid variables with short names like e
+src/gui/battlefield/BattlefieldLayout.java:215:	Avoid really long methods.
+src/gui/battlefield/BattlefieldLayout.java:235:	Avoid variables with short names like e
+src/gui/battlefield/BattlefieldLayout.java:250:	Avoid variables with short names like e
+src/gui/battlefield/BattlefieldView.java:1:	Possible God class (WMC=107, ATFD=127, TCC=0.010526315789473684)
+src/gui/battlefield/BattlefieldView.java:57:	Avoid really long classes.
+src/gui/battlefield/BattlefieldView.java:57:	The class 'BattlefieldView' has a Cyclomatic Complexity of 6 (Highest = 44).
+src/gui/battlefield/BattlefieldView.java:112:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:112:	The method 'createCardInteractionEvents' has a Cyclomatic Complexity of 44.
+src/gui/battlefield/BattlefieldView.java:117:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:117:	The method 'handle' has a Cyclomatic Complexity of 10.
+src/gui/battlefield/BattlefieldView.java:173:	Avoid variables with short names like i
+src/gui/battlefield/BattlefieldView.java:192:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:192:	The method 'handle' has a Cyclomatic Complexity of 13.
+src/gui/battlefield/BattlefieldView.java:265:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:265:	The method 'handle' has a Cyclomatic Complexity of 13.
+src/gui/battlefield/BattlefieldView.java:331:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/battlefield/BattlefieldView.java:413:	Avoid variables with short names like ai
+src/gui/battlefield/BattlefieldView.java:413:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/battlefield/BattlefieldView.java:414:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/battlefield/BattlefieldView.java:417:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:417:	The method 'onGameStart' has a Cyclomatic Complexity of 14.
+src/gui/battlefield/BattlefieldView.java:434:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:466:	Avoid variables with short names like id
+src/gui/battlefield/BattlefieldView.java:466:	Avoid variables with short names like n
+src/gui/battlefield/BattlefieldView.java:498:	Avoid really long methods.
+src/gui/battlefield/BattlefieldView.java:598:	Avoid variables with short names like p
+src/gui/mainview/MainMenuViewController.java:43:	Avoid unused private fields such as 'resources'.
+src/gui/mainview/MainMenuViewController.java:46:	Avoid unused private fields such as 'location'.
+src/gui/mainview/MainMenuViewController.java:61:	Avoid unused private fields such as 'mainContainer'.
+src/gui/mainview/MainMenuViewController.java:63:	Avoid unused private fields such as 'title'.
+src/gui/mainview/MainMenuViewController.java:161:	Avoid really long methods.
+src/gui/mainview/MainMenuViewController.java:241:	Avoid really long methods.
+src/gui/mainview/MainMenuViewController.java:284:	Avoid really long methods.
+src/gui/settings/SettingsView.java:61:	Avoid variables with short names like pb
+src/gui/settings/SettingsView.java:64:	Avoid variables with short names like pi
+src/gui/settings/SettingsView.java:68:	Avoid variables with short names like ov
+src/gui/settings/SettingsView.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'new_val' is not final.
+src/gui/settings/SettingsView.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'old_val' is not final.
+src/gui/sprites/CardSprite.java:60:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/sprites/CardSprite.java:64:	Avoid variables with short names like f
+src/gui/sprites/CardSprite.java:76:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/sprites/CardSprite.java:77:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/sprites/CardSprite.java:78:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/sprites/CardStackSprite.java:1:	Possible God class (WMC=48, ATFD=59, TCC=0.07017543859649122)
+src/gui/sprites/CardStackSprite.java:45:	Avoid long parameter lists.
+src/gui/sprites/CardStackSprite.java:118:	Avoid variables with short names like i
+src/gui/sprites/CardStackSprite.java:131:	Avoid variables with short names like c
+src/gui/sprites/Textures.java:110:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/sprites/Textures.java:117:	Avoid variables with short names like x
+src/gui/sprites/Textures.java:119:	Avoid variables with short names like y
+src/gui/sprites/Textures.java:137:	Avoid variables with short names like x
+src/gui/sprites/Textures.java:137:	Avoid variables with short names like y
+src/gui/startnewgame/ChoseGameModeView.java:30:	The class 'ChoseGameModeView' has a Cyclomatic Complexity of 4 (Highest = 13).
+src/gui/startnewgame/ChoseGameModeView.java:45:	Avoid really long methods.
+src/gui/startnewgame/ChoseGameModeView.java:45:	The method 'initButtons' has a Cyclomatic Complexity of 13.
+src/gui/startnewgame/ChoseGameModeView.java:80:	Avoid variables with short names like e
+src/gui/startnewgame/ChoseGameModeView.java:114:	Avoid variables with short names like e
+src/gui/startnewgame/ChoseGameModeView.java:148:	Avoid variables with short names like e
+src/gui/startnewgame/ChoseGameModeView.java:183:	Avoid unused method parameters such as 'event'.
+src/gui/startnewgame/ChoseGameModeView.java:188:	Avoid unused method parameters such as 'event'.
+src/gui/startnewgame/LoadStackView.java:27:	The class 'LoadStackView' has a Cyclomatic Complexity of 10 (Highest = 9).
+src/gui/startnewgame/LoadStackView.java:74:	Avoid really long methods.
+src/gui/startnewgame/LoadStackView.java:74:	Avoid variables with short names like e
+src/gui/startnewgame/LoadStackView.java:120:	Avoid variables with short names like e
+src/gui/startnewgame/MultiplayerView.java:114:	Avoid variables with short names like e
+src/gui/startnewgame/MultiplayerView.java:145:	Avoid variables with short names like e
+src/gui/startnewgame/MultiplayerView.java:152:	Avoid variables with short names like e
+src/gui/startnewgame/MultiplayerView.java:159:	Avoid variables with short names like e
+src/gui/startnewgame/MultiplayerView.java:190:	Avoid variables with short names like ip
+src/gui/startnewgame/MultiplayerView.java:224:	Avoid really long methods.
+src/gui/startnewgame/MultiplayerView.java:237:	Avoid variables with short names like t
+src/gui/startnewgame/MultiplayerView.java:281:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/gui/startnewgame/RegisterWindow.java:45:	Avoid really long methods.
+src/gui/startnewgame/RegisterWindow.java:77:	Avoid variables with short names like e
+src/gui/startnewgame/SingleplayerView.java:10:	Avoid unused private fields such as 'vbox'.
+src/gui/startnewgame/SingleplayerView.java:11:	Avoid unused private fields such as 'hbox'.
+src/gui/startnewgame/SingleplayerView.java:12:	Avoid unused private fields such as 'kieasy'.
+src/gui/startnewgame/SingleplayerView.java:12:	Avoid unused private fields such as 'kihard'.
+src/gui/startnewgame/SingleplayerView.java:12:	Avoid unused private fields such as 'kimid'.
+src/gui/startnewgame/SingleplayerView.java:13:	Avoid unused private fields such as 'loadGame'.
+src/gui/startnewgame/SingleplayerView.java:14:	Avoid unused private fields such as 'mpcController'.
+src/gui/startnewgame/StartNewGameView.java:43:	The class 'StartNewGameView' has a Cyclomatic Complexity of 3 (Highest = 12).
+src/gui/startnewgame/StartNewGameView.java:51:	Avoid unused private fields such as 'box'.
+src/gui/startnewgame/StartNewGameView.java:52:	Avoid unused private fields such as 'pane'.
+src/gui/startnewgame/StartNewGameView.java:54:	Avoid unused private fields such as 'currentGameType'.
+src/gui/startnewgame/StartNewGameView.java:56:	Avoid really long methods.
+src/gui/startnewgame/StartNewGameView.java:56:	Avoid unused private methods such as 'guiInit()'.
+src/gui/startnewgame/StartNewGameView.java:136:	Avoid unused private methods such as 'init()'.
+src/gui/startnewgame/StartNewGameView.java:141:	Avoid unused method parameters such as 'e'.
+src/gui/startnewgame/StartNewGameView.java:141:	Avoid unused private methods such as 'back(ActionEvent)'.
+src/gui/startnewgame/StartNewGameView.java:141:	Avoid variables with short names like e
+src/gui/startnewgame/StartNewGameView.java:146:	Avoid unused method parameters such as 'e'.
+src/gui/startnewgame/StartNewGameView.java:146:	Avoid variables with short names like e
+src/gui/startnewgame/StartNewGameView.java:164:	Avoid unused method parameters such as 'loadGame'.
+src/gui/startnewgame/StartNewGameView.java:169:	Avoid unused private methods such as 'aggroreg()'.
+src/gui/startnewgame/StartNewGameView.java:190:	Avoid variables with short names like e
+src/gui/startnewgame/StartNewGameView.java:196:	Avoid variables with short names like e
+src/gui/startnewgame/StartNewGameView.java:202:	Avoid really long methods.
+src/gui/startnewgame/StartNewGameView.java:202:	The method 'initButtonHoverAnimation' has a Cyclomatic Complexity of 12.
+src/gui/startnewgame/StartNewGameView.java:226:	Deeply nested if..then statements are hard to read
+src/gui/stats/StatsViewController.java:29:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'apm_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:32:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'apm_cardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:35:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'apm_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:38:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'apm_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:41:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'apm_longestTurn' is not final.
+src/gui/stats/StatsViewController.java:44:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aph_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:47:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aph_cardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:50:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aph_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:53:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aph_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:56:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aph_longestTurn' is not final.
+src/gui/stats/StatsViewController.java:59:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ape_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ape_cardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:65:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ape_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ape_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:71:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ape_longestTurn' is not final.
+src/gui/stats/StatsViewController.java:74:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aphu_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:77:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aphu_cardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aphu_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:83:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aphu_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'aphu_longestTurn' is not final.
+src/gui/stats/StatsViewController.java:89:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ip_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:92:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ip_mostCardsPlayed' is not final.
+src/gui/stats/StatsViewController.java:95:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ip_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:98:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ip_CardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ip_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fc_gamesPlayed' is not final.
+src/gui/stats/StatsViewController.java:107:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fc_cardsLeftAvg' is not final.
+src/gui/stats/StatsViewController.java:110:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fc_gamesWon' is not final.
+src/gui/stats/StatsViewController.java:113:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fc_fastestWin' is not final.
+src/gui/stats/StatsViewController.java:116:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'fc_lowestTurns' is not final.
+src/gui/stats/StatsViewController.java:119:	Avoid unused private fields such as 'statsGrid'.
+src/gui/transitions/TransitionFactory.java:92:	Avoid variables with short names like e
+src/gui/ui/UIOverlay.java:1:	Possible God class (WMC=61, ATFD=248, TCC=0.08823529411764706)
+src/gui/ui/UIOverlay.java:62:	Avoid really long classes.
+src/gui/ui/UIOverlay.java:62:	The class 'UIOverlay' has a Cyclomatic Complexity of 4 (Highest = 12).
+src/gui/ui/UIOverlay.java:99:	Avoid really long methods.
+src/gui/ui/UIOverlay.java:109:	Avoid variables with short names like e
+src/gui/ui/UIOverlay.java:157:	Avoid variables with short names like e
+src/gui/ui/UIOverlay.java:176:	Avoid really long methods.
+src/gui/ui/UIOverlay.java:176:	The method 'initMenuBar' has a Cyclomatic Complexity of 12.
+src/gui/ui/UIOverlay.java:220:	Avoid variables with short names like no
+src/gui/ui/UIOverlay.java:300:	Avoid variables with short names like t
+src/gui/ui/UIOverlay.java:324:	Avoid really long methods.
+src/gui/ui/UIOverlay.java:324:	The method 'initMenu' has a Cyclomatic Complexity of 10.
+src/gui/ui/UIOverlay.java:346:	Avoid variables with short names like e
+src/gui/ui/UIOverlay.java:532:	Avoid long parameter lists.
+src/gui/ui/UIOverlay.java:540:	Avoid variables with short names like f
+src/gui/ui/UIOverlay.java:540:	Avoid variables with short names like x
+src/gui/ui/UIOverlay.java:637:	Avoid variables with short names like r
+src/gui/ui/UIOverlay.java:743:	Avoid really long methods.
+src/model/Battlefield.java:1:	Possible God class (WMC=57, ATFD=37, TCC=0.03076923076923077)
+src/model/Battlefield.java:21:	Avoid really long classes.
+src/model/Card.java:11:	Avoid short class names like Card
+src/model/Move.java:16:	Avoid short class names like Move
+src/model/Move.java:131:	Avoid long parameter lists.
+src/model/Move.java:149:	Avoid long parameter lists.
+src/model/Move.java:172:	Avoid long parameter lists.
+src/model/Move.java:190:	Avoid long parameter lists.
+src/util/BattlefieldFactory.java:87:	Avoid really long methods.
+src/util/MoveToRuleCollection.java:20:	The class 'MoveToRuleCollection' has a Cyclomatic Complexity of 10 (Highest = 3).
+tests/controller/GameLogicControllerTest.java:13:	Avoid unused private fields such as 'mpcController'.
+tests/controller/MPCControllerTest.java:73:	Avoid unused local variables such as 'battlefield'.
+tests/controller/StatisticsControllerTest.java:63:	Avoid really long methods.
+tests/model/BattlefieldTest.java:42:	Avoid variables with short names like h3
+tests/model/BattlefieldTest.java:42:	Avoid variables with short names like hA
+tests/model/BattlefieldTest.java:42:	Avoid variables with short names like p2
+tests/model/GameStatisticsTest.java:16:	Avoid variables with short names like gS

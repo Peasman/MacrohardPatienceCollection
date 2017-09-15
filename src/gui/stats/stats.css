@@ -1,0 +1,89 @@
+.menu-label{
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 20.0;
+	-fx-text-fill: rgba(255.0,255.0,255.0,0.8);
+}
+
+.menu {
+	-fx-background-color: rgba(0.0, 0.0, 0.0, 0.4);
+}
+
+.button {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.3);
+	-fx-text-fill: white;
+	-fx-border-color:rgba(150.0,150.0,150.0,0.8) ;
+	-fx-border-radius: 3.0px;
+	-fx-background-radius:3.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 16.0;
+	-fx-text-fill: rgba(255.0,255.0,255.0, 0.8);
+	
+}
+.button:hover {
+	-fx-background-color:rgba(75.0,75.0,120.0,0.4);
+}
+.button:pressed {
+	-fx-text-fill: BLACK;
+	-fx-background-color: white
+}
+.menu-content{
+	-fx-background-color: rgba(0.0, 0.0, 0.0, 0.4);
+}
+
+.menu-item{
+	-fx-background-color: rgba(0.0, 0.0, 0.0, 0.7);
+}
+.stats-text{
+	-fx-text-fill: WHITE;
+	-fx-font-size: 16.0;
+}
+.title{
+	-fx-font-weight: BOLD;
+	-fx-font-size: 25.0;
+	-fx-text-fill: WHITE;
+}
+.root {
+}
+.statistic-anchor {
+	-fx-border-width: 2.0px;
+	-fx-border-color: rgba(0.0,0.0,0.0,0.5);
+	-fx-background-color: rgba(0.0,0.0,0.0,0.4);
+	-fx-border-radius: 4.0px;
+	-fx-background-radius: 4.0px;
+	-fx-padding: 10.0px;
+}
+
+#aphAnchor {
+	-fx-background-color: rgba(255.0,0.0,0.0,0.42);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10.0, 0.1, 7.0,5.0);
+}
+#apeAnchor {
+	-fx-background-color: rgba(0.0,200.0,0.0,0.4);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10.0, 0.1, 7.0,5.0);
+	
+}
+#apmAnchor {
+	-fx-background-color: rgba(255.0, 185.0, 15.0, 0.4);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10.0, 0.1, 7.0,5.0);
+	
+}
+#aphuAnchor {
+	-fx-background-color: rgba(200.0,0.0,150.0,0.4);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10, 0.1, 7,5);
+	
+}
+#ipAnchor {
+	-fx-background-color: rgba(32.0 ,178.0 ,170.0 ,0.4);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10, 0.1, 7,5);
+	
+}
+#fcAnchor {
+	-fx-background-color: rgba(30.0, 144.0 ,255.0 ,0.4);
+	-fx-effect: dropshadow(GAUSSIAN, BLACK, 10, 0.1, 7,5);
+	
+}
+#fancy {
+	-fx-fill: yellow;
+	-fx-font-size: 16.0px;
+	
+}
