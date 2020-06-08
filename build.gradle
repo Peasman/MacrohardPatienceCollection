@@ -1,0 +1,92 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'java-library'
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath 'org.openjfx:javafx-plugin:0.0.8'
+    }
+}
+apply plugin: 'org.openjfx.javafxplugin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+eclipse {
+    project {
+        name = 'Projekt 1'
+    }
+}
+
+javafx {
+    version = '11.0.2'
+    modules = [ 'javafx.controls','javafx.web', 'javafx.fxml', 'javafx.swing', 'javafx.media', 'javafx.graphics' ]
+}
+
+sourceSets.main.java.srcDirs = ['src']
+sourceSets.main.resources.srcDirs = ['src']
+sourceSets.test.java.srcDirs = ['tests']
+sourceSets.test.resources.srcDirs = ['tests']
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs '-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005'
+}
+
+
+mainClassName = 'application.MpcApplication'
+
+dependencies {
+    compile "org.openjfx:javafx-base:11:win"
+    compile "org.openjfx:javafx-graphics:11:win"
+    compile "org.openjfx:javafx-controls:11:win"
+    compile "org.openjfx:javafx-fxml:11:win"
+    compile "org.openjfx:javafx-web:11:win"
+    compile "org.openjfx:javafx-swing:11:win"
+    compile "org.openjfx:javafx-media:11:win"
+
+    compile "org.openjfx:javafx-base:11:linux"
+    compile "org.openjfx:javafx-graphics:11:linux"
+    compile "org.openjfx:javafx-controls:11:linux"
+    compile "org.openjfx:javafx-fxml:11:linux"
+    compile "org.openjfx:javafx-web:11:linux"
+    compile "org.openjfx:javafx-swing:11:linux"
+    compile "org.openjfx:javafx-media:11:linux"
+
+    compile "org.openjfx:javafx-base:11:mac"
+    compile "org.openjfx:javafx-graphics:11:mac"
+    compile "org.openjfx:javafx-controls:11:mac"
+    compile "org.openjfx:javafx-fxml:11:mac"
+    compile "org.openjfx:javafx-web:11:mac"
+    compile "org.openjfx:javafx-swing:11:mac"
+    compile "org.openjfx:javafx-media:11:mac"
+    compile 'com.google.code.gson:gson:2.7'
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "com.github.jengelman.gradle.plugins:shadow:5.2.0"
+    }
+}
+
+apply plugin: "com.github.johnrengelman.shadow"
+

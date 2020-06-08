@@ -1,13 +1,17 @@
 package controller;
 
-import java.io.*;
-import java.lang.reflect.Type;
-import java.util.*;
-import javax.sound.sampled.*;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 import gui.sprites.Textures;
-import model.*;
+import model.Battlefield;
+import model.CardStack;
+import model.CardStackType;
+import model.GameStatistics;
+
+import java.io.*;
+import java.lang.reflect.Type;
+import java.util.EnumMap;
+import java.util.Properties;
 
 /**
  * Bietet statische Methoden zum Laden und Speichern von Spielständen, und der
@@ -249,7 +253,7 @@ public class IOController {
 	}
 
 	public static void playSound(String url, float gain) {
-		// Thread audioThread = new Thread(() -> {
+		/*// Thread audioThread = new Thread(() -> {
 		try (AudioInputStream inputStream = AudioSystem
 				.getAudioInputStream(IOController.class.getResourceAsStream("/sounds/" + url))) {
 			Clip clip = AudioSystem.getClip();
@@ -280,6 +284,8 @@ public class IOController {
 		// audioThread.setName("Audio Thread");
 		// audioThread.setDaemon(true);
 		// audioThread.start();
+
+		 */
 	}
 
 }
