@@ -51,30 +51,30 @@ tasks.withType(JavaExec) {
 mainClassName = 'application.MpcApplication'
 
 dependencies {
-    compile "org.openjfx:javafx-base:11:win"
-    compile "org.openjfx:javafx-graphics:11:win"
-    compile "org.openjfx:javafx-controls:11:win"
-    compile "org.openjfx:javafx-fxml:11:win"
-    compile "org.openjfx:javafx-web:11:win"
-    compile "org.openjfx:javafx-swing:11:win"
-    compile "org.openjfx:javafx-media:11:win"
+    implementation "org.openjfx:javafx-base:11:win"
+    implementation "org.openjfx:javafx-graphics:11:win"
+    implementation "org.openjfx:javafx-controls:11:win"
+    implementation "org.openjfx:javafx-fxml:11:win"
+    implementation "org.openjfx:javafx-web:11:win"
+    implementation "org.openjfx:javafx-swing:11:win"
+    implementation "org.openjfx:javafx-media:11:win"
 
-    compile "org.openjfx:javafx-base:11:linux"
-    compile "org.openjfx:javafx-graphics:11:linux"
-    compile "org.openjfx:javafx-controls:11:linux"
-    compile "org.openjfx:javafx-fxml:11:linux"
-    compile "org.openjfx:javafx-web:11:linux"
-    compile "org.openjfx:javafx-swing:11:linux"
-    compile "org.openjfx:javafx-media:11:linux"
+    implementation "org.openjfx:javafx-base:11:linux"
+    implementation "org.openjfx:javafx-graphics:11:linux"
+    implementation "org.openjfx:javafx-controls:11:linux"
+    implementation "org.openjfx:javafx-fxml:11:linux"
+    implementation "org.openjfx:javafx-web:11:linux"
+    implementation "org.openjfx:javafx-swing:11:linux"
+    implementation "org.openjfx:javafx-media:11:linux"
 
-    compile "org.openjfx:javafx-base:11:mac"
-    compile "org.openjfx:javafx-graphics:11:mac"
-    compile "org.openjfx:javafx-controls:11:mac"
-    compile "org.openjfx:javafx-fxml:11:mac"
-    compile "org.openjfx:javafx-web:11:mac"
-    compile "org.openjfx:javafx-swing:11:mac"
-    compile "org.openjfx:javafx-media:11:mac"
-    compile 'com.google.code.gson:gson:2.7'
+    implementation "org.openjfx:javafx-base:11:mac"
+    implementation "org.openjfx:javafx-graphics:11:mac"
+    implementation "org.openjfx:javafx-controls:11:mac"
+    implementation "org.openjfx:javafx-fxml:11:mac"
+    implementation "org.openjfx:javafx-web:11:mac"
+    implementation "org.openjfx:javafx-swing:11:mac"
+    implementation "org.openjfx:javafx-media:11:mac"
+    implementation 'com.google.code.gson:gson:2.7'
 }
 
 buildscript {
