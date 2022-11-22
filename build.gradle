@@ -28,7 +28,7 @@ eclipse {
 }
 
 javafx {
-    version = '11.0.2'
+    version = '13'
     modules = [ 'javafx.controls','javafx.web', 'javafx.fxml', 'javafx.swing', 'javafx.media', 'javafx.graphics' ]
 }
 
